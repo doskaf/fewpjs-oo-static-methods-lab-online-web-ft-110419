@@ -11,7 +11,9 @@ class Formatter {
     let shouldBeLowercase = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"]
     let stringArr = string.split(" ");
     stringArr.forEach(element => {
-      if (!shouldBeLowercase.some(e => e === element))
+      if (!shouldBeLowercase.some(e => e === element)) {
+        element = Formatter.capitalize(element);
+      }
     })
   }
 }
