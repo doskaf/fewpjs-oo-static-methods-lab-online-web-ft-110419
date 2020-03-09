@@ -10,6 +10,7 @@ class Formatter {
   static titleize(string) {
     let shouldBeLowercase = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"]
     let stringArr = string.split(" ");
+    let finalStringArr = [];
     
   }
 }
