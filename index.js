@@ -12,7 +12,7 @@ class Formatter {
     let stringArr = string.split(" ");
     stringArr.forEach(element => {
       if (!shouldBeLowercase.some(e => e === element)) {
-        element = Formatter.capitalize(element);
+        element = element.replace(element[0], element[0].toUpperCase());
       }
     });
     return stringArr.join(' ')
