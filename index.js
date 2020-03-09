@@ -18,5 +18,6 @@ class Formatter {
         finalStringArr.push(this.capitalize(element));
       }
     })
+    return finalStringArr.join(" ")
   }
 }
