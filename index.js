@@ -3,11 +3,11 @@ class Formatter {
     return string.replace(string[0], string[0].toUpperCase());
   }
   
-  static sanitize() {
-    
+  static sanitize(string) {
+    string.replace(/[]/)
   }
   
-  static titleize() {
+  static titleize(string) {
     
   }
 }
