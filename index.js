@@ -10,7 +10,9 @@ class Formatter {
   static titleize(string) {
     let shouldBeLowercase = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"]
     return string.split(" ").map(function(e) {
-      if (!shouldBeLowercase.some(s => s === e))
+      if (!shouldBeLowercase.some(s => s === e)) {
+        this.capitalize(e);
+      }
     }).join()
   }
 }
