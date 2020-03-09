@@ -14,6 +14,7 @@ class Formatter {
       if (!shouldBeLowercase.some(e => e === element)) {
         element = Formatter.capitalize(element);
       }
-    })
+    });
+    return stringArr.join()
   }
 }
