@@ -8,8 +8,9 @@ class Formatter {
   }
   
   static titleize(string) {
+    let shouldBeLowercase = ["the", a, an, but, of, and]
     return string.split(" ").map(function(e) {
-      
-    }).join
+      if (e !== /[]/)
+    }).join()
   }
 }
