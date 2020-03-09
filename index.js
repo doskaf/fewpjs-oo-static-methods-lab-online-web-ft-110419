@@ -12,7 +12,7 @@ class Formatter {
     let stringArr = string.split(" ");
     let finalStringArr = [];
     stringArr.forEach(element => {
-      if (shouldBeLowercase.includes)
+      if (shouldBeLowercase.includes(element))
     })
   }
 }
