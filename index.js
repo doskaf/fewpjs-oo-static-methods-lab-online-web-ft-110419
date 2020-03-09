@@ -8,6 +8,8 @@ class Formatter {
   }
   
   static titleize(string) {
-    return string
+    return string.split(" ").map(function(e) {
+      
+    }).join
   }
 }
