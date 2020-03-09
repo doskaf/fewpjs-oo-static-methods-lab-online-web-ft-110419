@@ -8,6 +8,6 @@ class Formatter {
   }
   
   static titleize(string) {
-    
+    return string
   }
 }
