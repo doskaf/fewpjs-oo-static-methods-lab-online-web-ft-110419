@@ -15,6 +15,6 @@ class Formatter {
         element = Formatter.capitalize(element);
       }
     });
-    return stringArr.join()
+    return stringArr.join(' ')
   }
 }
