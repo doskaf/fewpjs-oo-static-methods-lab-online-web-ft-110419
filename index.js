@@ -15,7 +15,7 @@ class Formatter {
       if (shouldBeLowercase.includes(element)) {
         finalStringArr.push(element);
       } else {
-        finalStringArr.push(this.capitalize(element))
+        finalStringArr.push(this.capitalize(element));
       }
     })
   }
